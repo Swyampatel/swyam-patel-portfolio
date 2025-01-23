@@ -161,7 +161,7 @@ function App() {
                 Get in Touch
               </a>
               <a
-                href="/resume.pdf"
+                href="https://drive.google.com/file/d/1jvJkDYZW1TOxPZtghd-yWGaHaubeSSnI/view?usp=sharing"
                 className="px-8 py-4 text-lg font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg w-64 sm:w-auto flex items-center justify-center bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 text-white"
               >
                 <Download className="w-5 h-5 mr-2" />
