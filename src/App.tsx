@@ -48,21 +48,42 @@ function App() {
       description: 'Full-stack finance tracker using Kotlin, React, and Spring Boot with secure authentication and data visualization.',
       image: 'https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?auto=format&fit=crop&q=80&w=1000',
       tags: ['Kotlin', 'React', 'Spring Boot', 'Chart.js'],
-      github: 'https://github.com/Swyampatel/finance-tracker'
+      github: 'https://github.com/Swyampatel/ai_expense_tracker'
     },
     {
       title: 'News Sentiment Analyzer',
       description: 'News headline sentiment analysis using BeautifulSoup and TextBlob with Matplotlib visualizations.',
       image: 'https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&q=80&w=1000',
       tags: ['Python', 'BeautifulSoup', 'TextBlob', 'Matplotlib'],
-      github: 'https://github.com/Swyampatel/news-sentiment'
+      github: 'https://github.com/Swyampatel/News-Sentiment-Analyzer'
     },
     {
       title: 'AI Book Recommendation System',
       description: 'Personalized book recommendation system using TF-IDF vectorization with optimized web scraping.',
       image: 'https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&q=80&w=1000',
       tags: ['Python', 'TF-IDF', 'Machine Learning', 'Web Scraping'],
-      github: 'https://github.com/Swyampatel/book-recommender'
+      github: 'https://github.com/Swyampatel/BookBuddy-AI-Powered-Book-Recommendation-System'
+    },
+    {
+      "title": "Automated Resume Screening with NLP and Machine Learning",
+      "description": "AI-powered resume screening app using keyword matching and BERT-based classification to match resumes with job roles.",
+      "image": "https://static.jobscan.co/blog/uploads/533x340_01_new.png",
+      "tags": ["Python", "Flask", "NLP", "Machine Learning"],
+      "github": "https://github.com/Swyampatel/automated-resume-screening"
+    },
+    {
+      "title": "Weather Prediction Application",
+      "description": "Predicts rainfall using a linear regression model based on temperature and humidity, with real-time weather data fetched via WeatherStack API.",
+      "image": "https://www.snexplores.org/wp-content/uploads/2019/11/860_main_weather_and_prediction.png",
+      "tags": ["Python", "Flask", "Machine Learning", "API Integration"],
+      "github": "https://github.com/Swyampatel/weather-prediction-app"
+    },
+    {
+      "title": "AI Stock Price Prediction",
+      "description": "Predicts stock prices using LSTM models with historical data fetched from Yahoo Finance, visualizing actual vs. predicted prices.",
+      "image": "https://github.com/Swyampatel/ai-stock-price-prediction/raw/main/prediction_plot.png",
+      "tags": ["Python", "TensorFlow", "LSTM", "Time-Series Analysis"],
+      "github": "https://github.com/Swyampatel/ai-stock-price-prediction"
     }
   ];
 
@@ -75,7 +96,7 @@ function App() {
               Swyam Patel
             </span>
             <div className="hidden md:flex items-center space-x-8">
-              {['about', 'projects', 'skills','experience', 'contact'].map((section) => (
+              {['about', 'projects','experience', 'skills', 'contact'].map((section) => (
                 <a
                   key={section}
                   href={`#${section}`}
