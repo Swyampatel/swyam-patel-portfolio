@@ -141,7 +141,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="text-center space-y-8">
             <h1 className="pb-3 text-4xl sm:text-5xl md:text-7xl font-bold leading-tight tracking-tight bg-gradient-to-r from-blue-600 via-purple-500 to-blue-600 bg-clip-text text-transparent animate-gradient-x">
-              Tech Director &<br className="sm:hidden" /> Aspring Engineer
+              Tech Director &<br className="sm:hidden" /> AI Engineer
             </h1>
             <div className="text-lg sm:text-xl md:text-2xl text-gray-600 dark:text-gray-300 h-20 max-w-3xl mx-auto">
               <TypewriterComponent
