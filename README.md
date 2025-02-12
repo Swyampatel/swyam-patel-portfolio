@@ -66,4 +66,4 @@ Visit the live website: **[swyam-patel-portfolio.vercel.app](https://swyam-patel
 
 ---
 
-Feel free to fork this repository and create your own portfolio. Feedback and contributions are always welcome!
+Feedback and contributions are always welcome!
